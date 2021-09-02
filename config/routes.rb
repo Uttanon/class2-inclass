@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get 'somchai', to: "main#xxx"
   get 'welcome', to: "main#welcome"
   get 'contact_us', to: "main#contact_us"
+  get 'loop', to: "ex2#loop"
 end
